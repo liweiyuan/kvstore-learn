@@ -9,9 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>kvstore-common</artifactId>
+    <artifactId>kvstore-boot-start</artifactId>
 
-    <name>kvstore-common</name>
+    <name>kvstore-boot-start</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
@@ -28,10 +28,11 @@
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
+
         <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
-            <version>1.7.2</version>
+            <groupId>com.learn</groupId>
+            <artifactId>kvstore-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
