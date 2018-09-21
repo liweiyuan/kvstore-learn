@@ -9,6 +9,7 @@
         <module name="kvstore-boot-start" />
         <module name="kvstore-common" />
         <module name="kvstore-zk-learn" />
+        <module name="ribbon-learn" />
       </profile>
     </annotationProcessing>
   </component>
