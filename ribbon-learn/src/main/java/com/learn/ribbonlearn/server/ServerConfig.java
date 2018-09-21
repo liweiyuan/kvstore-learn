@@ -15,7 +15,7 @@ import java.util.List;
 public class ServerConfig {
 
 
-    @Bean
+    //@Bean
     public ServerList newInstance() {
         List<RegisterServer> servers = new ArrayList<>();
         RegisterServer server = new RegisterServer("1.2.3.4", 1234);
